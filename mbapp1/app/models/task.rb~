@@ -1,0 +1,9 @@
+class Task < ActiveRecord::Base
+    before_save :default_values
+    def default_values
+        self.status ||= 'new'
+        self.priority ||= 'low'
+    end
+    validates :name, presence: true
+    
+end

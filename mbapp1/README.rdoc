@@ -1,0 +1,37 @@
+== README
+
+Simple Task list (name, priority, status)
+
+Things you may want to cover:
+
+* Ruby version: 2.0.0
+
+* System dependencies
+    Ubuntu 12.04 (curl, rvm, rails 4, ruby 2.0.0)
+
+* Configuration
+    Passenger nginx web app (optional)
+    Sqlite3 (out of the box - no mods needed)
+* Database creation
+    Seed database from scratch: 
+    rake db:migrate
+
+* Database initialization
+    rake db:seed
+* How to run the test suite
+    rake test:models
+    rake test:controllers (alter which yaml entries to run)
+
+* Services (job queues, cache servers, search engines, etc.)
+
+* Deployment instructions
+    Unzip or 'git clone' repo
+    Run bundle install (make sure gems are installed)
+    start the server (rails server -p<portnum>)
+
+* Resources
+    rails-api gem : strips out the normal Rails view stuff / leaves us with nice skeleton for simple API
+
+
+Please feel free to use a different markup language if you do not plan to run
+<tt>rake doc:app</tt>.

@@ -1,0 +1,5 @@
+Fri, 06 Sep 2013 02:15:12 -0400
+README.rdoc	Fri, 06 Sep 2013 02:14:53 -0400
+app/controllers/application_controller.rb	Fri, 06 Sep 2013 00:56:16 -0400
+app/controllers/tasks_controller.rb	Fri, 06 Sep 2013 01:02:42 -0400
+app/models/task.rb	Fri, 06 Sep 2013 02:08:20 -0400

@@ -1,0 +1,60 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+a1:
+  name: 'What a wonderful world'
+  priority: Low
+  status: open
+
+a2:
+  name: 'Mysterious girl'
+  priority: Low
+  status: closed
+
+a3:
+  name: 'Lightbulb'
+  priority: High
+  status: closed
+
+a4:
+  name: 'Wait staff'
+  priority: Normal
+  status: open
+
+a5:
+  name: 'Assign task to team2'
+  priority: High
+  status: closed
+
+b1:
+  name: 'Not missing the cage'
+  priority: High
+  status: closed
+
+b2:
+  name: 'Non standard'
+  priority: Weird
+  status: open
+
+b3:
+  name: 'The Incredible Hulk no priority'
+  priority: 
+  status: closed
+
+b4:
+  name: 'Invisible Cat no Status'
+  priority: High
+  status: 
+
+c1:
+  name: 
+  priority: High
+  status: closed
+
+c2:
+  name: 0
+  priority: low
+  status: open
+
+c3:
+  name: ''
+  priority: low
+  status: open
