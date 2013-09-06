@@ -9,22 +9,26 @@ Requirements
 - Ruby version 2 w/ RVM stable
 - Core gems: rails-api gem, rails gem (version 4) - See mbapp1/Gemfile for the rest
 
-Install/Setup
-- git clone
+Download
+- git clone https://github.com/jordieyap/mindblown-simple1.git
+- or
+- download zip: 
+
+Setup
 - cd mbapp1/
-- setup your rvm environment for new gemset
--   rvm gemset create <newgemset_for myapp1>
--   rvm gemset use <newgemset>
--   gem install (see Gemfile)
+- (optional) Setup a new gemset / rvm environment to evaluate; install gemfiles required in mbapp1/Gemfile
 - rake db:migrate
-- initialize the database use existing db/seed.rb or create your own using 
+
+Initialize/Seed Database w/sample data
+- use existing db/seed.rb or create your own using:
 -   Task.create(name: "string", priority: "string", status: "string")
 
 Go!
 - rails server -p<port> (uses basic WebBrick HTTP server)
 
 Docs/References
-- see rdocs : navigate to your desktop file /path/to/myapp1/doc/app/index.html
-- Open in Browser (very barebones :) )
+- Open /path/to/myapp1/doc/app/index.html in your browser for documentation (rdoc)
+
+Enjoy!
 
 
