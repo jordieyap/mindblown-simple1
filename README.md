@@ -12,7 +12,7 @@ Requirements
 Download
 - git clone https://github.com/jordieyap/mindblown-simple1.git
 - or
-- download zip: 
+- download zip: https://github.com/jordieyap/mindblown-simple1/archive/master.zip
 
 Setup
 - cd mbapp1/
@@ -21,7 +21,7 @@ Setup
 
 Initialize/Seed Database w/sample data
 - use existing db/seed.rb or create your own using:
--   Task.create(name: "string", priority: "string", status: "string")
+- Format: Task.create(name: "string", priority: "string", status: "string")
 
 Go!
 - rails server -p<port> (uses basic WebBrick HTTP server)
